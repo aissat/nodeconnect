@@ -160,7 +160,7 @@ class Nodeconnect {
       print("CSTP connection established $res");
 
     res = _nc.nodeconnect_setup_tun_device(
-        newVpnInfo, Utf8.toUtf8('./vpnc-script'), nullptr);
+        newVpnInfo, Utf8.toUtf8('nodeconnect/lib/src/util/vpnc-script'), nullptr);
     if (res != 0)
       print("Failed to steup TUN device  $res");
     else
