@@ -2,8 +2,8 @@ Nodeconnect dart package
 
 
 ```yaml
-  nodeconnect: 1.0.0
-
+  nodeconnect:
+    git: git@gitlab.com:nodevpn1/nodecoonec-dart-pkg.git
 ```
 
 `main.dart`
